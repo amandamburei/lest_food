@@ -1,0 +1,278 @@
+:root {
+  --prymary: #ffcb45;
+  --brack: #1d1d1d;
+  --text-light: #615f5a;
+  --light: #fff9ea;
+  --accent: #f28b42;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Readex Pro", sans-serif;
+  color: var(--brack);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  background-color: var(--light);
+}
+
+header nav a {
+  color: var(--text-light);
+  padding: 0 15px;
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+header div {
+  display: flex;
+  gap: 30px;
+}
+button {
+  background-color: var(--prymary);
+  padding: 10px 25px;
+  display: flex;
+  gap: 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+main .banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("/assets/images/shapes.svg");
+}
+
+main .banner div {
+  width: 470px;
+}
+main .banner div h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+main .banner div p {
+  margin: 30px 0;
+  font-size: 18px;
+  color: var(--text-light);
+  width: 400px;
+}
+
+main .banner div span {
+  color: var(--prymary);
+}
+
+main .service {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+main .service h4 {
+  color: var(--prymary);
+  font-size: 22px;
+}
+main .service h2 {
+  font-size: 32px;
+}
+main .service > p {
+  width: 610px;
+  margin: 20px auto;
+  color: var(--text-light);
+  font-weight: 400;
+  font-size: 22px;
+}
+
+main .cards div h3 {
+  font-weight: 600;
+  font-size: 28px;
+  margin: 20px auto;
+}
+
+main .cards div p {
+  width: 240px;
+  color: var(--text-light);
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px auto;
+}
+main .menu {
+  text-align: center;
+  margin-top: 60px;
+}
+
+main .menu h4 {
+  color: var(--prymary);
+  font-size: 22px;
+}
+main .menu h2 {
+  font-size: 32px;
+}
+main .menu > p {
+  width: 610px;
+  margin: 20px auto;
+  color: var(--text-light);
+  font-weight: 400;
+  font-size: 22px;
+}
+main .menu .cards > div {
+  box-shadow: 5px 5px 5px 1px #e7e7e7;
+  border-radius: 15px;
+  background: radial-gradient(at bottom left, transparent 30%, #f1f1f1 30%);
+  background-size: 260% 100%, contain;
+  padding: 20px 20px 0;
+  margin: 20px 0;
+}
+
+main .menu .cards div h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px 0 0;
+}
+
+main .menu .cards div p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px auto;
+}
+
+main .menu .price {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+}
+
+main .menu button {
+  display: block;
+  margin: 30px auto;
+}
+
+main .testimonials {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+main .testimonials .img {
+  display: flex;
+  width: 445px;
+  flex-wrap: wrap;
+}
+
+main .testimonials .img img {
+  margin: 5px;
+  box-shadow: 5px 5px 5px 1px #e7e7e7;
+}
+
+main .testimonials .img img:nth-child(1) {
+  border-radius: 15px 15px 0px 0px;
+}
+
+main .testimonials .img img:nth-child(2) {
+  border-radius: 0px 0px 0px 15px;
+}
+
+main .testimonials .img img:nth-child(3) {
+  border-radius: 0px 0px 15px 0px;
+}
+main .testimonials > div:nth-child(2) {
+  margin-left: 100px;
+  width: 500px;
+}
+
+main .testimonials div h4 {
+  color: var(--prymary);
+  font-size: 20px;
+  font-weight: 300;
+  padding: 20px 0;
+}
+
+main .testimonials div h2 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+main .testimonials .testimonial {
+  background: #f1f1f1;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 30px;
+}
+main .testimonials .testimonial > div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+main .testimonials .testimonial > p {
+  color: var(--text-light);
+}
+main .banner-two {
+  background: url("./assets/images/unsplash_2lWGQ02DGL8.png") no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin: 50px auto;
+  height: 50vh;
+  width: 90vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .banner-two h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 32px;
+  width: 450px;
+  margin-bottom: 20px;
+}
+footer div.cards {
+  background-image: url("/assets/images/shapes.svg");
+  padding: 50px;
+  align-items: flex-start;
+}
+footer .cards div {
+  max-width: 300px;
+}
+
+footer .cards p {
+  font-size: 20px;
+  font-weight: 400;
+  width: 350px;
+  color: var(--text-light);
+  margin-top: 20px;
+}
+footer .cards h4 {
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px 0;
+}
+footer .cards li {
+  margin-top: 20px;
+  color: var(--text-light);
+  list-style-type: none;
+}
+footer .copyright {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  border-top: 2px solid var(--text-light);
+  padding: 50px;
+}
